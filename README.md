@@ -1,4 +1,4 @@
-# pain
+# cliff-height-timer
 
 ## Project setup
 ```
