@@ -3,6 +3,7 @@ import Home from "@/views/Home";
 import About from "@/views/About";
 import History from "@/views/History";
 import Form from "@/views/Form";
+import Compare from "@/views/Compare";
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: "/form",
     name: "Form",
     component: Form,
+  },
+  {
+    path: "/compare",
+    name: "Compare",
+    component: Compare,
   },
 ];
 

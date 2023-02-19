@@ -6,26 +6,28 @@
 
     <v-app-bar dark color="deep-purple" clipped-left app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title @click="goHome" class="white--text">{{$t("title")}}</v-toolbar-title>
+      <v-toolbar-title @click="goHome" class="white--text">{{
+        $t("title")
+      }}</v-toolbar-title>
     </v-app-bar>
   </div>
 </template>
 
 <script>
-import myContentDrawer from "@/components/Drawer" // <== Ajouter l’import
+import myContentDrawer from "@/components/Drawer";
 
 export default {
   name: "myToolbar",
-  components: {myContentDrawer}, // <== Ajouter la déclaration du composant
+  components: {myContentDrawer},
   data: function () {
     return {
-      drawer: false
-    }
+      drawer: false,
+    };
   },
   methods: {
-    goHome () {
-      this.$router.replace('/')
-    }
-  }
-}
+    goHome() {
+      this.$router.replace("/");
+    },
+  },
+};
 </script>

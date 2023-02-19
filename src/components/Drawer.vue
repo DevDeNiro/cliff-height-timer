@@ -28,6 +28,11 @@ export default {
         {icon: "home", text: this.$t("drawer.home"), action: "/"},
         {icon: "history", text: this.$t("drawer.history"), action: "/history"},
         {icon: "form", text: this.$t("drawer.form"), action: "/form"},
+        {
+          icon: "compare",
+          text: this.$t("drawer.compare"),
+          action: "/compare",
+        },
         {icon: "help", text: this.$t("drawer.about"), action: "/about"},
       ],
     };
