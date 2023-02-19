@@ -1,0 +1,8 @@
+{
+    "title": "Ma première appli non fonctionelle en Vue !",
+    "drawer.home": "Home page",
+    "drawer.history": "History",
+    "drawer.about": "About",
+    "drawer.form": "Form add to history",
+    "label": "Un label universelle"
+  }
