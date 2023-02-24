@@ -29,9 +29,9 @@ export default {
         {icon: "history", text: this.$t("drawer.history"), action: "/history"},
         {icon: "form", text: this.$t("drawer.form"), action: "/form"},
         {
-          icon: "compare",
-          text: this.$t("drawer.compare"),
-          action: "/compare",
+          icon: "converter",
+          text: this.$t("drawer.converter"),
+          action: "/converter",
         },
         {icon: "help", text: this.$t("drawer.about"), action: "/about"},
       ],

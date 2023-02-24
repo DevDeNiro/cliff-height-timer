@@ -3,7 +3,7 @@ import Home from "@/views/Home";
 import About from "@/views/About";
 import History from "@/views/History";
 import Form from "@/views/Form";
-import Compare from "@/views/Compare";
+import Converter from "@/views/Converter.vue";
 
 const routes = [
   {
@@ -27,9 +27,9 @@ const routes = [
     component: Form,
   },
   {
-    path: "/compare",
-    name: "Compare",
-    component: Compare,
+    path: "/Converter",
+    name: "Converter",
+    component: Converter,
   },
 ];
 
